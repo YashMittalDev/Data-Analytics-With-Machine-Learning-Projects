@@ -61,8 +61,10 @@ plt.bar(avacado.region.unique(),height = avacado.groupby('region')["AveragePrice
 
 #----Predicting the price of Avacados----#
 
+
 import warnings 
-warnings.
+warnings.filterwarnings('ignore')
+
 
 import numpy as np
 import pandas as pd
